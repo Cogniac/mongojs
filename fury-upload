@@ -1,0 +1,4 @@
+# to build package
+update package.json with build version
+npm pack
+curl -F package=@<build-version>.tgz https://Zew4EeiY1s1M1DiYdi8u@push.fury.io/cogniac/
